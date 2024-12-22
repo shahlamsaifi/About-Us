@@ -35,7 +35,7 @@
   object-position: center bottom;
   height: auto;
   display: block;
-  width: 100%;
+  max-width: 100%;
 }
 .banner {
   height: 500px;
@@ -60,10 +60,9 @@
 .about-img button {
   display: flex;
   background-color: #f3f25b;
-  width: 135px;
-  height: 40px;
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 22px;
+  padding: 4px 50px;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -116,12 +115,12 @@
   /* padding-top: 10px; */
 }
 .heading1 button {
-  width: 242px;
-  height: 53px;
+  font-size: 22px;
+  padding: 8px 50px;
   background-color: #f3f25b;
   border-radius: 10px;
   border: none;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 500;
   cursor: pointer;
 }
@@ -153,10 +152,10 @@
 
 .victar-img {
   position: relative;
+  max-width: 100%;
 }
 .victar-img .photo img {
-  max-width: 100%;
-  height: 100%;
+ max-width: 100%;
 }
 .victar-img .photo {
   position: absolute;
@@ -181,7 +180,6 @@
 }
 .photo2 img {
   max-width: 100%;
-  height: 100%;
 }
 .photo2 {
   position: absolute;
@@ -225,12 +223,11 @@
   bottom: -12px;
 }
 .heading2 button {
-  width: 242px;
-  height: 53px;
+  padding: 8px 50px;
   background-color: #f3f25b;
   border-radius: 10px;
   border: none;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 500;
 }
 
@@ -258,12 +255,12 @@
   /* padding-top: 10px; */
 }
 .heading3 button {
-  width: 242px;
-  height: 53px;
+  font-size: 22px;
+  padding: 8px 50px;
   background-color: #f3f25b;
   border-radius: 10px;
   border: none;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 500;
 }
 .gool {
@@ -294,7 +291,6 @@
 }
 .victar1-img .photo3 img {
   max-width: 100%;
-  height: 100%;
 }
 .victar1-img .photo3 {
   position: absolute;
@@ -303,6 +299,7 @@
   transform: translate(-50%, -50%);
   height: 450px;
   width: 450px;
+  max-width: 100%;
 }
 
 .new-h1 {
@@ -332,6 +329,9 @@
   position: relative;
   bottom: 77px;
   left: 28px;
+}
+.john-boy img {
+  max-width: 100%;
 }
 
 .lady {
@@ -380,6 +380,7 @@
   align-items: center;
   padding-top: 20px;
   flex-wrap: wrap;
+  margin-bottom: 150px;
 }
 .cardd1 h1 {
   font-family: "Montserrat", sans-serif;
@@ -473,17 +474,138 @@
     }
 }
 
+ @media (max-width: 967px) {
+  .Developing {
+    padding-top: 60px;
+    display: flex;
+    margin: 15px;
+}
+.heading1 h1 {
+  font-size: 30px;
+}
+.heading1 p {
+  font-size: 16px;
+}
+.victar-img .photo img {
+  max-width: 100%;
+}
+.enjoy {
+  display: flex;
+  margin: 15px;
+}
+.heading2 h1 {
+  font-size: 28px;
+}
+.heading2 p {
+  font-size: 17px;
+
+}
+.photo2 img {
+  max-width: 100%;
+}
+.heading3 h1 {
+  font-size: 30px;  
+}
+.heading3 p {
+  font-size: 18px;
+}
+.last-card {
+  display: flex;
+  margin: 15px;
+}
+}
+
+@media (max-width: 768px) {
+  .heading1 {
+    padding-top: 0;
+    text-align: center;
+}
+.heading1 p {
+  font-size: 24px;
+}
+.victar-img {
+  padding-top: 40px;
+}
+  .line {
+    width: 100%;
+  }
+  .heading1 h1 {
+    font-size: 48px;
+    text-align: center;
+}
+.enjoy {
+  padding-top: 40px;
+}
+.heading2 {
+  text-align: center;
+}
+.line2 {
+  width: 100%;
+}
+.heading2 h1 {
+  font-size: 40px;
+}
+.heading2 p {
+  font-size: 24px;
+}
+.heading3 {
+  padding-top: 0;
+  text-align: center;
+}
+.heading3 h1 {
+  font-size: 40px;
+}
+.heading3 p {
+  font-size: 24px;
+}
+.last-card {
+  padding-top: 10px;
+}
+.victar1-img {
+  padding-top: 30px;
+}
+
+.rdimg {
+  justify-content: center;
+  align-items: center;
+  display: flex ;
+  padding-top: 70px;
+  flex-wrap: wrap;
+}
+
+.rd-img {
+  position: relative;
+  top: -568px;
+  left: 220px;
+}
+.nd-img {
+  position: relative;
+  top: 400px;
+}
+.second {
+  position: relative;
+  right: 140px;
+}
+.lady {
+  top: 122px;
+  left: -69px;
+  max-width: 100%;
+}
+
+}
+
+@media (max-width: 737px) {
+  .rd-img {
+      position: relative;
+      top: -667px;
+      left: 0;
+  }
+
+}
+
 
 @media (max-width: 480px) {
-  .mix-heading {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 100%;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+
   .about-img h1 {
     font-size: 33px;
   }
@@ -491,10 +613,9 @@
  font-size: 15px;
   }
   .about-img button {
-    height: 35px;
-    width: 110px;
+   max-width: 100%;
     position: absolute;
-    left: 160px;
+    left: 140px;
   }
   .lady {
     position: relative;
@@ -502,31 +623,56 @@
     top: 0;
     height: 302px;
   }
+  .victar-img {
+    margin-bottom: 30px;
+}
   .victar-img .photo{
-    height: 100%;
-    width: 100%;
+   max-width: 100%;
   }
   .victar-img .photo2 {
     height: 100%;
     width: 100%;
   }
   .victar-img .photo3 {
-    height: 100%;
-    width: 100%;
+   max-width: 100%;
   }
- 
+ .succs {
+    font-size: 19px;
+    padding-top: 20px;
+}
   .banner {
     height: 306px;
   }
   .Developing{
     padding-top: 0;
   }
-  .heading1 h1 {
-    font-size: 34px;
-  }
+  .heading2 h1 {
+    font-size: 28px;
+}
+  .heading1 p {
+    font-size: 18px;
+}
+.heading2 p {
+  font-size: 18px;
+}
+.heading3 p {
+  font-size: 18px;
+}
   .injoy-img {
     position: relative;
     top: -45px;
+}
+.rd-img {
+  top: -479px;
+}
+.nd-img {
+  position: relative;
+  top: 475px;
+}
+.second {
+  right: 8px;
+  top: 0px;
+  max-width: 100%;
 }
 .victar-img{
     position: relative;
@@ -537,13 +683,13 @@
     padding-top: 0;
 }
 .heading2 h1 {
-    font-size: 31px;
+    font-size: 28px;
 }
 .heading3{
     padding-top: 0;
 }
 .heading3 h1 {
-    font-size: 34px;
+    font-size: 31px;
 }
 .victar1-img {
     position: relative;
@@ -561,5 +707,189 @@
     left: -113px;
     top: -10px;
     padding: 39px;
+}
+.cardd1 p {
+  margin-bottom: 20px;
+}
+.cardd2 p {
+  margin-bottom: 20px;
+}
+.cardd3 p {
+  margin-bottom: 20px;
+}
+.heading1 h1 {
+  font-size: 28px;
+}
+.succs-heading h1 {
+  font-size: 28px;
+}
+}
+
+@media (max-width: 424px) {
+  .victar-img img {
+    max-width: 100%;
+  }
+  
+    .victar-img .photo img {
+        max-width: 100%;
+        position: absolute;
+        top: 38px;
+    }
+.injoy-img img {
+  max-width: 100%;
+}
+.photo2 {
+  max-width: 100%;
+}
+ .photo2 img {
+        max-width: 100%;
+        position: absolute;
+        top: 38px;
+}
+.victar1-img img {
+  max-width: 100%;
+}
+.photo3 img {
+  max-width: 100%;
+  position: absolute;
+  top: 29px;
+}
+.Miss {
+  left: 0;
+}
+.Miss .heading {
+  height: 110px;
+  left: -30px;
+  top: -6px;
+  font-size: 26px;
+}
+.about-img h4 {
+  font-size: 12px;
+}
+.about-img button {
+  max-width: 100%;
+  position: absolute;
+  left: 116px;
+  font-size: 18px;
+}
+.heading1 p {
+  font-size: 16px;
+}
+.succs-heading h1 {
+  font-size: 24px;
+}
+.heading2 h1 {
+  font-size: 24px;
+}
+.heading2 p {
+  font-size: 16px;
+}
+.heading3 h1 {
+  font-size: 25px;
+}
+.heading3 p {
+  font-size: 16px;
+}
+.endd {
+  padding-top: 0;
+}
+}
+
+@media (max-width:360px) {
+  .victar-img img{
+    max-width: 100%;
+}
+.injoy-img img {
+  max-width: 100%;
+}
+.photo2 {
+  width: 450px;
+  max-width: 100%;
+}
+.victar1-img img{
+  max-width: 100%;
+}
+.victar1-img .photo3 {
+  width: 450px;
+  max-width: 100%;
+}
+
+.Miss .heading {
+  max-width: 100%;
+}
+.Miss {
+  max-width: 100%;
+  left: 0;
+}
+.Miss .heading {
+  max-width: 100%;
+  left: -1px;
+}
+.about-img h4 {
+  font-size: 11px;
+}
+.nav a {
+  font-size: 14px;
+}
+.about-img button {
+  left: 21px;
+  font-size: 6px;
+}
+.about-img h4 {
+  font-size: 5px;
+}
+.about-img h1 {
+  font-size: 22px;
+}
+.banner {
+  height: 245px;
+}
+.succs-heading h1 {
+  font-size: 20px;
+}
+.heading1 h1 {
+  font-size: 20px;
+}
+.heading1 p {
+  font-size: 13px;
+}
+.heading2 h1 {
+  font-size: 20px;
+}
+.heading2 p {
+  font-size: 13px;
+}
+.heading3 h1 {
+  font-size: 20px;
+}
+.heading3 p {
+  font-size: 13px;
+}
+.mix-heading {
+  max-width: 100%;
+}
+.mix-heading {
+  position: absolute;
+  content: "";
+   width: 50%; 
+    height: 50%; 
+  top: 268px; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.heading1 button {
+  padding: 8px 20px;
+  font-size: 13px;
+}
+.heading2 button {
+  padding: 8px 20px;
+  font-size: 14px;
+}
+.heading3 button {
+  padding: 8px 20px;
+  font-size: 13px;
+}
+.cardd3 h1 {
+  font-size: 23px;
 }
 }

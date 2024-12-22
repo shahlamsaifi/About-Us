@@ -1,0 +1,565 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  max-width: 100%;
+  background-color: antiquewhite;
+}
+.nav {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.nav a {
+  font-size: 22px;
+  padding: 19px;
+  text-decoration: none;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+.about-img img {
+  max-width: 100%;
+}
+.about-img h1 {
+  display: flex;
+  color: white;
+  font-size: 75px;
+  font-family: "Montserrat", sans-serif;
+  justify-content: center;
+}
+.banner img {
+  object-fit: cover;
+  object-position: center bottom;
+  height: auto;
+  display: block;
+  width: 100%;
+}
+.banner {
+  height: 500px;
+  overflow: hidden;
+}
+
+.mix-heading {
+  position: absolute;
+  top: 197px;
+  left: 460px;
+}
+.about-img h4 {
+  display: flex;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+.about-img button {
+  display: flex;
+  background-color: #f3f25b;
+  width: 135px;
+  height: 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: none;
+  font-weight: 550;
+  cursor: pointer;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.succs {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 26px;
+  font-family: Source Serif Pro;
+}
+.succs img {
+  padding-top: 10px;
+}
+.Developing {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.heading1 {
+  padding-top: 40px;
+}
+.heading1 h1 {
+  font-size: 36px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 10px;
+}
+.heading1 p {
+  font-size: 20px;
+  font-family: Lato;
+  padding-top: 20px;
+  margin-bottom: 30px;
+  opacity: 0.6;
+}
+.line {
+  width: 63%;
+  color: #f3f25b;
+  height: 5px;
+  background-color: #f3f25b;
+  border: none;
+  /* padding-top: 10px; */
+}
+.heading1 button {
+  width: 242px;
+  height: 53px;
+  background-color: #f3f25b;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.heading1 i {
+  position: absolute;
+  top: 1080px;
+  left: 130px;
+  color: rgb(221, 139, 32);
+  font-size: 25px;
+  cursor: pointer;
+}
+.heading1 i:hover {
+  color: aqua;
+  font-size: 30px;
+}
+
+.gool {
+  height: 60px;
+  width: 60px;
+  border: 2px solid black;
+  border-radius: 40px;
+  background-color: white;
+  border: none;
+  position: relative;
+  display: flex;
+  top: -35px;
+  left: 184px;
+}
+
+.victar-img {
+  position: relative;
+}
+.victar-img .photo img {
+  max-width: 100%;
+  height: 100%;
+}
+.victar-img .photo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 450px;
+  width: 450px;
+}
+
+.enjoy {
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.injoy-img {
+  position: relative;
+}
+.photo2 img {
+  position: relative;
+}
+.photo2 img {
+  max-width: 100%;
+  height: 100%;
+}
+.photo2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 450px;
+  width: 450px;
+}
+.head {
+  position: relative;
+}
+
+.heading2 {
+  justify-content: end;
+  text-align: end;
+  padding-top: 60px;
+}
+.heading2 h1 {
+  font-size: 36px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 10px;
+}
+.heading2 p {
+  font-size: 20px;
+  font-family: Lato;
+  padding-top: 20px;
+  margin-bottom: 30px;
+  opacity: 0.6;
+}
+
+.line2 {
+  width: 69%;
+  color: #f3f25b;
+  height: 5px;
+  background-color: #f3f25b;
+  border: none;
+  position: absolute;
+  display: flex;
+  right: 0;
+  bottom: -12px;
+}
+.heading2 button {
+  width: 242px;
+  height: 53px;
+  background-color: #f3f25b;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.heading3 {
+  padding-top: 90px;
+}
+.heading3 h1 {
+  font-size: 36px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 10px;
+}
+.heading3 p {
+  font-size: 20px;
+  font-family: Lato;
+  padding-top: 20px;
+  margin-bottom: 30px;
+  opacity: 0.6;
+}
+.line {
+  width: 63%;
+  color: #f3f25b;
+  height: 5px;
+  background-color: #f3f25b;
+  border: none;
+  /* padding-top: 10px; */
+}
+.heading3 button {
+  width: 242px;
+  height: 53px;
+  background-color: #f3f25b;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+.gool {
+  height: 60px;
+  width: 60px;
+  border: 2px solid black;
+  border-radius: 40px;
+  background-color: white;
+  border: none;
+  position: relative;
+  display: flex;
+  top: -35px;
+  left: 184px;
+}
+
+.last-card {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 60px;
+  flex-wrap: wrap;
+}
+.victar1-img {
+  position: relative;
+}
+
+.victar-img {
+  position: relative;
+}
+.victar1-img .photo3 img {
+  max-width: 100%;
+  height: 100%;
+}
+.victar1-img .photo3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 450px;
+  width: 450px;
+}
+
+.new-h1 {
+  text-align: center;
+  justify-content: center;
+  padding-top: 80px;
+  font-family: Source Serif Pro;
+  font-size: 30px;
+}
+.new-h1 img {
+  flex-direction: column;
+  padding-top: 20px;
+}
+.rdimg {
+  justify-content: space-evenly;
+  display: flex;
+  padding-top: 70px;
+  flex-wrap: wrap;
+}
+
+.first {
+  position: relative;
+  bottom: 52px;
+  left: 5px;
+}
+.john {
+  position: relative;
+  bottom: 77px;
+  left: 28px;
+}
+
+.lady {
+  position: relative;
+  top: 120px;
+  left: 70px;
+}
+
+.second img {
+  position: relative;
+  left: 44px;
+  top: 46px;
+  height: 150px;
+}
+
+.Miss {
+  position: relative;
+  left: 76px;
+  bottom: 49px;
+}
+
+.third {
+  position: relative;
+  bottom: 51px;
+}
+
+.third .John2 {
+  position: absolute;
+  bottom: 43px;
+  left: 38px;
+}
+
+.endd {
+  padding-top: 50px;
+  justify-content: center;
+  text-align: center;
+}
+.endd h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.lasst {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+.cardd1 h1 {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 10px;
+  display: block;
+  font-size: 28px;
+}
+.cardd1 p {
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  opacity: 0.9;
+  padding-top: 10px;
+}
+.cardd2 {
+  padding-top: 25px;
+  position: relative;
+}
+.cardd2 h1 {
+  padding-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 29px;
+}
+.cardd2 p {
+  font-size: 18px;
+  padding-top: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  opacity: 0.9;
+}
+.cardd3 h1 {
+  padding-top: 14px;
+  font-size: 28px;
+  font-family: "Montserrat", sans-serif;
+}
+.cardd3 p {
+  font-size: 18px;
+  padding-top: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  opacity: 0.9;
+}
+.Miss .heading{
+    position: relative;
+    padding: 10px;
+}
+.Miss .heading::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: url("../image/Vector 159.png") no-repeat center / contain;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+.Miss .heading {
+    height: 155px;
+    z-index: 2;
+    left: -89px;
+    top: 93px;
+    padding: 39px;
+    padding-left: 89px;
+    padding-top: 56px;
+}
+
+.end-line {
+  height: 10px;
+  width: 100%;
+  background-color: #f3f25b;
+  display: flex;
+  position: absolute;
+  top: 4050px;
+}
+.mix-heading {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+@media (max-width: 1080px) {
+    .lady {
+        position: relative;
+        top: 119px;
+        left: 16px;
+    }
+}
+
+
+@media (max-width: 480px) {
+  .mix-heading {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .about-img h1 {
+    font-size: 33px;
+  }
+  .about-img h4 {
+ font-size: 15px;
+  }
+  .about-img button {
+    height: 35px;
+    width: 110px;
+    position: absolute;
+    left: 160px;
+  }
+  .lady {
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 302px;
+  }
+  .victar-img .photo{
+    height: 100%;
+    width: 100%;
+  }
+  .victar-img .photo2 {
+    height: 100%;
+    width: 100%;
+  }
+  .victar-img .photo3 {
+    height: 100%;
+    width: 100%;
+  }
+ 
+  .banner {
+    height: 306px;
+  }
+  .Developing{
+    padding-top: 0;
+  }
+  .heading1 h1 {
+    font-size: 34px;
+  }
+  .injoy-img {
+    position: relative;
+    top: -45px;
+}
+.victar-img{
+    position: relative;
+    top: 22px;
+}
+.heading2 {
+    position: relative;
+    padding-top: 0;
+}
+.heading2 h1 {
+    font-size: 31px;
+}
+.heading3{
+    padding-top: 0;
+}
+.heading3 h1 {
+    font-size: 34px;
+}
+.victar1-img {
+    position: relative;
+    padding-top: 22px;
+}
+.new-h1 {
+    padding-top: 10px;
+}
+.rdimg {
+    padding-top: 20px;
+}
+.Miss .heading {
+    height: 127px;
+    z-index: 2;
+    left: -113px;
+    top: -10px;
+    padding: 39px;
+}
+}

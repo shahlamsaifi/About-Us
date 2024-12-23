@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+}
 .navbar {
   max-width: 100%;
   background-color: antiquewhite;
@@ -786,13 +790,47 @@
   font-size: 16px;
 }
 .heading3 h1 {
-  font-size: 25px;
+  font-size: 20px;
 }
 .heading3 p {
-  font-size: 16px;
+  font-size: 13px;
 }
 .endd {
   padding-top: 0;
+}
+.heading1 h1 {
+  font-size: 20px;
+}
+.succs-heading h1 {
+  font-size: 20px;
+  padding-top: 0;
+}
+.heading1 p {
+  font-size: 13px;
+}
+.heading1 button {
+  padding: 6px 22px;
+  font-size: 18px;
+}
+.heading2 h1 {
+  font-size: 20px;
+}
+.heading2 p {
+  font-size: 14px;
+  padding-top: 15px;
+}
+.heading2 button {
+  padding: 6px 22px;
+  font-size: 18px;
+}
+.heading3 button{
+  padding: 6px 22px;
+  font-size: 18px; 
+}
+.cardd3 h1 {
+  padding-top: 12px;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
 }
 }
 
